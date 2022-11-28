@@ -1,0 +1,79 @@
+.personagens {
+    background-image: url(../img/back_personagens.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    flex-direction: column;
+}
+
+.personagens H1 {
+    color: #ffffff;
+    font-size: 96px;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.personagens img {
+    height: 300px;
+    width: 250px;
+}
+
+.personagens_card,
+.personagens_card_principal {
+    background-color: #252525;
+    height: 365px;
+    width: 270px;
+    padding-top: 20px;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.personagens_card_principal {
+    width: 300px;
+}
+
+.personagens_lista_secundarios,
+.personagens_lista_principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.personagens_lista {
+    justify-content: center;
+}
+
+.personagens_lista_principal {
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+.personagens_lista_secundarios {
+    padding-left: 21%;
+    gap: 150px;
+}
+
+#kratos,
+#atreus {
+    display: none;
+    font-size: 2rem;
+    gap: 100px;
+}
+
+#kratos img,
+#atreus img {
+    height: 700px;
+    width: 530px;
+}
+
+#kratos li,
+#atreus li {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 200px;
+    margin-left: 300px;
+}

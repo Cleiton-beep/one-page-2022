@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #0F4E98;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Berserk';
+    color: #ffffff;
+}
+
+header {
+    height: 100px;
+    background-color: #101010;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    gap: 35px;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+}
+
+.omega {
+    visibility: hidden;
+}
+
+.omega li:hover {
+    visibility: visible;
+}
+
+.menu li:hover {
+    visibility: visible;
+    border-color: var(--primary-color);
+}
+
+.logo {
+    height: 100px;
+    width: 180px;
+}
+
+.bars {
+    display: none;
+}
+
+section {
+    height: 100vh;
+}
